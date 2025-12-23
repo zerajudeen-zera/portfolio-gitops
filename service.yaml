@@ -8,6 +8,11 @@ spec:
     app: portfolio-app
   ports:
     - protocol: TCP
+<<<<<<< HEAD
       port: 80
       targetPort: 8080
   type: LoadBalancer
+=======
+      port: 8080
+      targetPort: 8080
+>>>>>>> origin/master
