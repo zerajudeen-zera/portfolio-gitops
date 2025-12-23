@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: portfolio-app
-          image: 262101604988.dkr.ecr.us-east-1.amazonaws.com/zera18/myportfolio:0.0.1-SNAPSHOT-42
+          image: 262101604988.dkr.ecr.us-east-1.amazonaws.com/zera18/myportfolio:0.0.1-SNAPSHOT
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
